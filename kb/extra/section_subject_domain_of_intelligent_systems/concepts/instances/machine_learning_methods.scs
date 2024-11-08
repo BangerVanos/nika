@@ -1,0 +1,24 @@
+linear_regression
+<- concept_machine_learning;
+=> nrel_main_idtf:
+   [линейная регрессия] (*<- lang_ru;;*);;
+
+logistic_regression
+<- concept_machine_learning;
+=> nrel_main_idtf:
+   [логистическая регрессия] (*<- lang_ru;;*);;
+
+support_vector_machine
+<- concept_machine_learning;
+=> nrel_main_idtf:
+   [метод опорных векторов] (*<- lang_ru;;*);;
+
+deep_learning
+<- concept_machine_learning;
+=> nrel_main_idtf:
+   [глубокое обучение] (*<- lang_ru;;*);;
+
+solving_trees
+<- concept_machine_learning;
+=> nrel_main_idtf:
+   [решающие деревья] (*<- lang_ru;;*);;

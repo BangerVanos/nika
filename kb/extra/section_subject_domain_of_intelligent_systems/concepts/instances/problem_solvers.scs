@@ -1,0 +1,11 @@
+chat_gpt_problem_solver
+<- concept_problem_solver;
+=> nrel_main_idtf:
+   [Решатель задач ChatGPT] (*<- lang_ru;;*);
+=> nrel_problem_solver_method:
+	deep_learning;;
+
+ostis_geography_problem_solver
+<- concept_problem_solver;
+=> nrel_main_idtf:
+   [Решатель задач ostis-geography] (*<- lang_ru;;*);;

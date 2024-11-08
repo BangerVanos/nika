@@ -1,0 +1,26 @@
+concept_message_about_problem_solver
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	  [сообщение о решателе задач]
+	  (* <- lang_ru;; *);
+=> nrel_wit_ai_idtf:
+	  [about_problem_solver];
+<- rrel_key_sc_element:
+	...
+	(*
+	=> nrel_main_idtf:
+	   [Опр. (сообщение о решателе задач)]
+	   (* <- lang_ru;; *);;
+	<- definition;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+	   [Сообщение о решателе задач - атомарное сообщение, которое содержит необходимость о поиске информации о решателе задач.]
+		   (* <- lang_ru;; *);;
+		*);;
+	<= nrel_using_constants:
+		{
+			concept_atomic_message
+		};;
+	*);;

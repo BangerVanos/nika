@@ -1,0 +1,44 @@
+nrel_intelligent_agent
+<- sc_node_norole_relation;
+<- relation;
+<- binary_relation;
+<- oriented_relation;
+<- antireflexive_relation;
+<- asymmetric_relation;
+<- antitransitive_relation;
+=> nrel_main_idtf:
+   [используемая технология*]
+   (* <- lang_ru;; *);
+   [used technology*]
+   (* <- lang_ru;; *);
+=> nrel_first_domain: concept_intelligent_system;
+=> nrel_second_domain: concept_technology;
+=> nrel_definitional_domain:
+   ...
+   (*
+    	<= nrel_combination: {
+        	concept_intelligent_system;
+			concept_technology
+    	};;
+   *);
+<- rrel_key_sc_element:
+   ...
+   (*
+      => nrel_main_idtf:
+   	   [Опр. (входящий агент*)]
+   	   (* <- lang_ru;; *);;
+      <- definition;;
+      <= nrel_sc_text_translation:
+   	    ...
+   	    (*
+   	       -> rrel_example:
+   		    [используемая технология* - бинарное ориентированное отношение, связывающее
+			 некоторую интеллектуальную систему и технологию, при помощи которой разработана
+			 интеллектуальная система.]
+   		    (* <- lang_ru;; *);;
+   	    *);;
+      <= nrel_using_constants: {
+   	 	 concept_intelligent_system;
+   	 	 concept_technology
+   	 };;
+  *);;

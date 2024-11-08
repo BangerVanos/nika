@@ -1,0 +1,27 @@
+concept_message_about_intelligent_system_solved_problem
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	  [сообщение о задаче, решаемой интеллектуальной системой]
+	  (* <- lang_ru;; *);
+=> nrel_wit_ai_idtf:
+	  [about_intelligent_system_solved_problem];
+<- rrel_key_sc_element:
+	...
+	(*
+	=> nrel_main_idtf:
+	   [Опр. (сообщение о задаче, решаемой интеллектуальной системой)]
+	   (* <- lang_ru;; *);;
+	<- definition;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+	   [Сообщение о задаче, решаемой интеллектуальной системой - атомарное сообщение, которое содержит
+	    необходимость о поиске информации о задаче, решаемой интеллектуальной системой.]
+		   (* <- lang_ru;; *);;
+		*);;
+	<= nrel_using_constants:
+		{
+			concept_atomic_message
+		};;
+	*);;

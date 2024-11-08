@@ -1,0 +1,60 @@
+concept_intelligent_system
+<- concept_wit_entity;
+<- sc_node_class;
+<- class;
+=> nrel_main_idtf:
+	[интеллектуальная система]
+	(* <- lang_ru;; *);
+	[intelligent system]
+	(* <- lang_en;; *);
+
+<- rrel_key_sc_element:
+   ...
+   (*
+      => nrel_main_idtf:
+         [Опр. (Интеллектуальная система)]
+         (* <- lang_ru;; *);;
+      <- definition;;
+      <= nrel_sc_text_translation:
+         ...
+         (*
+            -> rrel_example:
+               [Интеллектуальная система - это техническая или программная система, способная решать задачи, 
+			   традиционно считающиеся творческими, принадлежащие конкретной предметной области, 
+			   знания о которой хранятся в памяти такой системы.]
+               (* <- lang_ru;; *);;
+         *);;      
+      <= nrel_using_constants: {
+		concept_problem;
+		concept_subject_domain
+	  };;
+  *);
+
+=> nrel_note:
+	[Структура интеллектуальной системы включает три основных блока — базу знаний, решатель и интеллектуальный интерфейс.]
+	(* <- lang_ru;; *);
+
+=> nrel_inclusion:
+	concept_expert_system
+	(* => nrel_idtf:
+		[экспертная система]
+		(* <- lang_ru;; *);;
+	*);
+=> nrel_inclusion:
+	concept_intelligent_information_system
+	(* => nrel_idtf:
+		[интеллектуальная информационная система]
+		(* <- lang_ru;; *);;
+	*);
+=> nrel_inclusion:
+	concept_hybrid_intelligent_system
+	(* => nrel_idtf:
+		[гибридная интеллектуальная система]
+		(* <- lang_ru;; *);;
+	*);
+=> nrel_inclusion:
+	concept_reflex_intelligent_system
+	(* => nrel_idtf:
+		[рефлекторная интеллектуальная система]
+		(* <- lang_ru;; *);;
+	*);;

@@ -1,0 +1,27 @@
+concept_graph_traversal
+<- sc_node_class;
+<- class;
+=> nrel_main_idtf:
+	[обход графа]
+	(* <- lang_ru;; *);
+
+<- rrel_key_sc_element:
+   ...
+   (* 
+      => nrel_main_idtf:
+         [Опр. (Обход графа)]
+         (* <- lang_ru;; *);;
+      <- definition;;
+      <= nrel_sc_text_translation:
+         ...
+         (* 
+            -> rrel_example:
+               [Обход графа — это процесс посещения всех вершин графа в определённом порядке.]
+               (* <- lang_ru;; *);;			
+         *);;	       
+  *);
+
+=> nrel_note:
+	[Некоторые задачи можно решить при помощи какого-либо алогоритма обхода графа
+	 состояний.]
+	(* <- lang_ru;; *);;

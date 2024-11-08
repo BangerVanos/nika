@@ -1,0 +1,42 @@
+nrel_problem_solver
+<- sc_node_norole_relation;
+<- relation;
+<- binary_relation;
+<- oriented_relation;
+<- antireflexive_relation;
+<- asymmetric_relation;
+<- antitransitive_relation;
+=> nrel_main_idtf:
+   [решатель задач*]
+   (* <- lang_ru;; *);
+=> nrel_first_domain: concept_intelligent_system;
+=> nrel_second_domain: concept_problem_solver;
+=> nrel_definitional_domain:
+   ...
+   (*
+    	<= nrel_combination: {
+        	concept_intelligent_system;
+			concept_problem_solver
+    	};;
+   *);
+<- rrel_key_sc_element:
+   ...
+   (*
+      => nrel_main_idtf:
+   	   [Опр. (решатель задач*)]
+   	   (* <- lang_ru;; *);;
+      <- definition;;
+      <= nrel_sc_text_translation:
+   	    ...
+   	    (*
+   	       -> rrel_example:
+   		    [решатель задач* - бинарное ориентированное отношение, связывающее
+			 интеллектуальную систему и решатель задач данной
+			 интеллектуальной системы.]
+   		    (* <- lang_ru;; *);;
+   	    *);;
+      <= nrel_using_constants: {
+   	 	 concept_intelligent_system;
+   	 	 concept_problem_solver
+   	 };;
+  *);;

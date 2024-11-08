@@ -1,0 +1,30 @@
+concept_multiagent_system
+<- sc_node_class;
+<- class;
+=> nrel_main_idtf:
+	[многоагентная система]
+	(* <- lang_ru;; *);
+
+<- rrel_key_sc_element:
+   ...
+   (* 
+      => nrel_main_idtf:
+         [Опр. (Многоагентная система)]
+         (* <- lang_ru;; *);;
+      <- definition;;
+      <= nrel_sc_text_translation:
+         ...
+         (* 
+            -> rrel_example:
+               [Многоагентная система — это система, образованная несколькими взаимодействующими интеллектуальными агентами.]
+               (* <- lang_ru;; *);;			
+         *);;
+	  <= nrel_using_constants: {
+			concept_intelligent_agent
+	  };;     
+  *);
+
+=> nrel_note:
+	[Многоагентные системы могут быть использованы для решения таких проблем, которые сложно 
+	 или невозможно решить с помощью одного агента или монолитной системы.]
+	(* <- lang_ru;; *);;

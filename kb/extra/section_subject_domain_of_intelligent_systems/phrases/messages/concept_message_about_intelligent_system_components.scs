@@ -1,0 +1,28 @@
+concept_message_about_intelligent_system_components
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	  [сообщение о компонентах интеллектуальной системы]
+	  (* <- lang_ru;; *);
+=> nrel_wit_ai_idtf:
+	  [about_intelligent_system_components];
+<- rrel_key_sc_element:
+	...
+	(*
+	=> nrel_main_idtf:
+	   [Опр. (сообщение о компонентах интеллектуальной системы)]
+	   (* <- lang_ru;; *);;
+	<- definition;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+	   [Сообщение о компонентах интеллектуальной системы - атомарное сообщение,
+    которое содержит компоненты интеллектуальной системы, информацию о которых
+    необходимо найти.]
+		   (* <- lang_ru;; *);;
+		*);;
+	<= nrel_using_constants:
+		{
+			concept_atomic_message
+		};;
+	*);;

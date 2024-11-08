@@ -1,0 +1,10 @@
+bfs_algorithm
+<- concept_graph_traversal;
+=> nrel_main_idtf:
+   [Обход графа в ширину] (*<- lang_ru;;*);;
+
+
+dfs_algorithm
+<- concept_graph_traversal;
+=> nrel_main_idtf:
+   [Обход графа в глубину] (*<- lang_ru;;*);;

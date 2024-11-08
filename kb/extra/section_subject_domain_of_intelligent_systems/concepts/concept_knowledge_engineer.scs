@@ -1,0 +1,30 @@
+concept_knowledge_engineer
+<- sc_node_class;
+<- class;
+=> nrel_main_idtf:
+	[инженер знаний]
+	(* <- lang_ru;; *);
+
+<- rrel_key_sc_element:
+   ...
+   (* 
+      => nrel_main_idtf:
+         [Опр. (Инженер знаний)]
+         (* <- lang_ru;; *);;
+      <- definition;;
+      <= nrel_sc_text_translation:
+         ...
+         (* 
+            -> rrel_example:
+               [Инженер по знаниям - специалист в области создания интеллектуальных систем,
+			    проектирующий и создающий базу знаний интеллектуальной системы. ]
+               (* <- lang_ru;; *);;			
+         *);;
+	  <= nrel_using_constants: {
+			concept_knowledge_base
+	  };;     
+  *);
+
+=> nrel_note:
+	[Обычно инженер по знаниям выступает в роли посредника между экспертом и базой знаний.]
+	(* <- lang_ru;; *);;

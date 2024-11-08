@@ -1,0 +1,26 @@
+concept_message_about_knowledge_base
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	  [сообщение о базе знаний]
+	  (* <- lang_ru;; *);
+=> nrel_wit_ai_idtf:
+	  [about_knowledge_base];
+<- rrel_key_sc_element:
+	...
+	(*
+	=> nrel_main_idtf:
+	   [Опр. (сообщение о базе знаний)]
+	   (* <- lang_ru;; *);;
+	<- definition;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+	   [Сообщение о базе знаний - атомарное сообщение, которое содержит необходимость о поиске информации о базе знаний.]
+		   (* <- lang_ru;; *);;
+		*);;
+	<= nrel_using_constants:
+		{
+			concept_atomic_message
+		};;
+	*);;

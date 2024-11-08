@@ -1,0 +1,36 @@
+concept_problem_solving_method
+<- sc_node_class;
+<- class;
+=> nrel_main_idtf:
+	[метод решения задачи]
+	(* <- lang_ru;; *);
+
+<- rrel_key_sc_element:
+   ...
+   (* 
+      => nrel_main_idtf:
+         [Опр. (Метод решения задачи)]
+         (* <- lang_ru;; *);;
+      <- definition;;
+      <= nrel_sc_text_translation:
+         ...
+         (* 
+            -> rrel_example:
+               [Метод решения задачи - это структурированный подход, который включает в себя последовательность шагов и алгоритмов, 
+               используемых для нахождения решения конкретной проблемы, основываясь на имеющихся знаниях в базе знаний.]
+               (* <- lang_ru;; *);;			
+         *);;
+	  <= nrel_using_constants: {
+			concept_problem;			
+			concept_knowledge_base
+	  };;     
+  *);
+
+=> nrel_note:
+	[Методы решения задач могут варьироваться от простых эвристик до сложных алгоритмов, и их выбор зависит от характера задачи и доступных знаний.]
+	(* <- lang_ru;; *);
+
+<= nrel_subdividing: {
+	concept_heuristic;
+	concept_machine_learning	
+};;

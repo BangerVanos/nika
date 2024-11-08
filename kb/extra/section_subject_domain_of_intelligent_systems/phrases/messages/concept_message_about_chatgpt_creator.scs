@@ -1,0 +1,28 @@
+concept_message_about_intelligent_system_creator
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	  [сообщение о создателе интеллектуальной системы]
+	  (* <- lang_ru;; *);
+=> nrel_wit_ai_idtf:
+	  [about_intelligent_system_creator];
+<- rrel_key_sc_element:
+	...
+	(*
+	=> nrel_main_idtf:
+	   [Опр. (сообщение о создателе интеллектуальной системы)]
+	   (* <- lang_ru;; *);;
+	<- definition;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+	   [Сообщение о создателе интеллектуальной системы - атомарное сообщение, которое содержит
+	    необходимость о поиске информации о создателе интеллектуальной системы.]
+		   (* <- lang_ru;; *);;
+		*);;
+	<= nrel_using_constants:
+		{
+			concept_atomic_message;
+			concept_intelligent_system
+		};;
+	*);;

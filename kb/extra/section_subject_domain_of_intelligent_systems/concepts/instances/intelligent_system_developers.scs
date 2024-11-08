@@ -1,0 +1,25 @@
+sam_altman
+<- concept_intelligent_system_developer;
+=> nrel_main_idtf:
+   [Сэм Альтман] (*<- lang_ru;;*);;
+
+openai
+<- concept_intelligent_system_developer;
+=> nrel_main_idtf:
+   [OpenAI] (*<- lang_ru;;*);;
+
+natural_language_processing_engineer
+<- concept_machine_learning_engineer;
+=> nrel_main_idtf:
+   [инженер по обработке естественного языка] (*<- lang_ru;;*);;
+
+computer_vision_engineer
+<- concept_machine_learning_engineer;
+=> nrel_main_idtf:
+   [инженер машинного зрения] (*<- lang_ru;;*);;
+
+sem_systems
+<- concept_intelligent_system_developer;
+=> nrel_main_idtf:
+   [Semantic Systems] (*<- lang_ru;;*);;
+

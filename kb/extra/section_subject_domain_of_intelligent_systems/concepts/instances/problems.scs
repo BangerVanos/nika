@@ -1,0 +1,14 @@
+natural_language_processing
+<- concept_problem;
+=> nrel_main_idtf:
+   [задача обработки естественного языка] (*<- lang_ru;;*);;
+
+decision_making
+<- concept_problem;
+=> nrel_main_idtf:
+   [задача принятия решений] (*<- lang_ru;;*);;
+
+pattern_recognition
+<- concept_problem;
+=> nrel_main_idtf:
+   [задача распознавания образов] (*<- lang_ru;;*);;

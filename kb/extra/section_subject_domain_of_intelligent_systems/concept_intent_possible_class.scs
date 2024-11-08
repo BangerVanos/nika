@@ -1,0 +1,10 @@
+concept_intent_possible_class
+
+-> concept_message_about_intelligent_system;
+-> concept_message_about_intelligent_system_components;
+-> concept_message_about_knowledge_base;
+-> concept_message_about_problem_solver;
+-> concept_message_about_intelligent_interface;
+-> concept_message_about_entity;
+-> concept_message_about_intelligent_system_creator;
+-> concept_message_about_intelligent_system_solved_problem;;
