@@ -11,9 +11,7 @@ ChatGPT
 => nrel_intelligent_system_subject_domain:
 	subject_domain_of_natural_languages;
 => nrel_intelligent_system_developer:
-	openai;
-	sam_altman;
-	natural_language_processing_engineer;
+	openai;	
 => nrel_used_technology:
 	concept_machine_learning;;
 
@@ -25,6 +23,8 @@ ostis_geography
    [ostis-geography] (*<- lang_en;;*);
 => nrel_problem_solver:
 	ostis_geography_problem_solver;
+=> nrel_solved_problem:
+	[обработка геопространственных знаний] (*<- lang_ru;;*);
 => nrel_intelligent_system_developer:
 	sem_systems;;
 

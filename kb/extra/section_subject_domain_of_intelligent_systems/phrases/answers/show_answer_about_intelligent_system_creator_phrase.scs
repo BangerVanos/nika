@@ -1,0 +1,13 @@
+show_answer_about_intelligent_system_creator_phrase
+<- sc_node_class;
+=> nrel_main_idtf:
+    [ответ на вопрос о создателе интеллектуальной системы]
+    (* <- lang_ru;; *);
+    [answer to a question about intelligent_system_creator]
+    (* <- lang_en;; *);;
+
+[Я не знаю такой интеллектуальной системы.]
+<- sc_link;
+<- lang_ru;
+=> nrel_system_identifier:
+    [unknown_intelligent_system_for_weather_agent_message_text];;

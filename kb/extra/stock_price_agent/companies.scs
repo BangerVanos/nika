@@ -1,0 +1,78 @@
+concept_company
+<- sc_node_class;
+=> nrel_main_idtf:
+    [компания]
+    (* <- lang_ru;; *);
+    [company]
+    (* <- lang_en;; *);;
+
+Google
+<- concept_wit_entity;
+<- concept_company;
+=> nrel_main_idtf:
+	[Гугл]
+	(* <- lang_ru;; *);
+	[Google]
+	(* <- lang_en;; *);
+=> nrel_idtf:
+	[гугл]
+	(* <- lang_ru;; *);
+	[гугла]
+	(* <- lang_ru;; *);
+	[google]
+	(* <- lang_ru;; *);
+	[google]
+	(* <- lang_en;; *);
+=> nrel_company_cipher:
+	[GOOGL] (* <- lang_en;; *);
+	[GOOGL] (* <- lang_ru;; *);;
+
+Tesla
+<- concept_wit_entity;
+<- concept_company;
+=> nrel_main_idtf:
+	[Тесла]
+	(* <- lang_ru;; *);
+	[Tesla]
+	(* <- lang_en;; *);
+=> nrel_idtf:
+	[Теслы]
+	(* <- lang_ru;; *);
+	[Тесле]
+	(* <- lang_ru;; *);
+	[теслы]
+	(* <- lang_ru;; *);
+	[тесле]
+	(* <- lang_ru;; *);
+	[tesla]
+	(* <- lang_ru;; *);
+	[tesla]
+	(* <- lang_en;; *);
+=> nrel_company_cipher:
+	[TSLA] (* <- lang_en;; *);
+	[TSLA] (* <- lang_ru;; *);;
+
+Nvidia
+<- concept_wit_entity;
+<- concept_company;
+=> nrel_main_idtf:
+	[Нвидия]
+	(* <- lang_ru;; *);
+	[Nvidia]
+	(* <- lang_en;; *);
+=> nrel_idtf:
+	[нвидия]
+	(* <- lang_ru;; *);
+	[энвидия]
+	(* <- lang_ru;; *);
+	[нвидии]
+	(* <- lang_ru;; *);
+	[энвидии]
+	(* <- lang_ru;; *);
+	[nvidia]
+	(* <- lang_ru;; *);
+	[nvidia]
+	(* <- lang_en;; *);
+=> nrel_company_cipher:
+	[NVDA] (* <- lang_en;; *);
+	[NVDA] (* <- lang_ru;; *);;

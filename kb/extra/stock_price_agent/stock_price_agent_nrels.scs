@@ -1,0 +1,15 @@
+nrel_price
+<- sc_node_norole_relation;
+=> nrel_main_idtf:
+    [цена*]
+    (* <- lang_ru;; *);
+    [price*]
+    (* <- lang_en;; *);;
+
+nrel_company_cipher
+<- sc_node_norole_relation;
+=> nrel_main_idtf:
+    [шифр компании*]
+    (* <- lang_ru;; *);
+    [company cipher*]
+    (* <- lang_en;; *);;

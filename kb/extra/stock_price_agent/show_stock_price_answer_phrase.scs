@@ -1,0 +1,13 @@
+show_stock_price_answer_phrase
+<- sc_node_class;
+=> nrel_main_idtf:
+    [ответ на вопрос о стоимости ценных бумаг]
+    (* <- lang_ru;; *);
+    [answer to a question about stock price]
+    (* <- lang_en;; *);;
+
+[Я не знаю такой компании. Проверь базу знаний!]
+<- sc_link;
+<- lang_ru;
+=> nrel_system_identifier:
+    [unknown_company_for_stock_price_agent_message_text];;

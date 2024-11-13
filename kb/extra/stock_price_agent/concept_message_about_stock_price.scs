@@ -1,0 +1,32 @@
+concept_message_about_stock_price
+<- sc_node_class;
+=> nrel_main_idtf:
+	[сообщение о стоимости ценных бумаг]
+	(* <- lang_ru;; *);
+	[message about stock price]
+	(* <- lang_en;; *);
+=> nrel_wit_ai_idtf:
+	[about_stock_price];
+<- rrel_key_sc_element:
+	...
+	(*
+        => nrel_main_idtf:
+        [Опр. (сообщение о стоимости ценных бумаг)]
+        (* <- lang_ru;; *);
+        [Def. (message about stock price)]
+        (* <- lang_en;; *);;
+        <- definition;;
+        <= nrel_sc_text_translation:
+            ...
+            (*
+                -> rrel_example:
+                    [сообщение о стоимости ценных бумаг - атомарное сообщение, в котором говорится о стоимости ценных бумаг.]
+                    (* <- lang_ru;; *);;
+            *);
+            ...
+            (*
+                -> rrel_example:
+                    [message about stock price is an atomic message, which shows a stock price.]
+                    (* <- lang_en;; *);;
+            *);;
+	*);;
